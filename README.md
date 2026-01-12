@@ -1,6 +1,6 @@
 # CSE 8A Winter 2026 PA1
 
-**Due Date: Sunday, January 15, 2025, 11:59 PM PST**
+**Due Date: Sunday, January 18, 2026, 11:59 PM PST**
 
 ## Provided Files
 None
