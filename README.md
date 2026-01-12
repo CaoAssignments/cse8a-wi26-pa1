@@ -8,15 +8,11 @@ None
 ## File(s) to Submit
 `pa1.py` (details on how to submit your file can be found below)
 
----
-
 ## Part 1. Implementation (100 points)
 
 In this programming assignment, you will be asking the user for the coordinates of three points (the center point, followed by two points, each from the circumference of two concentric circles) to calculate the area of a ring shape and print the result.
 
 Please create a new file called `pa1.py`. You are going to work on this file for the coding part of this assignment. The file name must match to pass the tests.
-
----
 
 ## Part 1.1 Task Description
 
@@ -52,8 +48,6 @@ The radius is the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_d
 
 $$\text{radius} = \sqrt{(y - y_{\text{center}})^2 + (x - x_{\text{center}})^2}$$
 
----
-
 Now we can plug the radius into the area formula.
 
 $$\text{area of circle} = 3.14 \times \left(\sqrt{(y - y_{\text{center}})^2 + (x - x_{\text{center}})^2}\right)^2$$
@@ -67,8 +61,6 @@ After calculating the area of these two concentric circles, the area of the ring
 $$\text{area of ring shape} = \text{area of outer circle} - \text{area of inner circle}$$
 
 The following steps show you some implementation details, and how you can run and test your program.
-
----
 
 ## Part 1.2 Implementation Details & How to Run/Test Your Program
 
@@ -112,7 +104,6 @@ python -i pa1.py
 8. Finally, add a `print` statement at the end of your program that displays the value of the area of the ring after the message. A run of your program should now look like this (note the lack of `-i`!). Now your program should ask you for input coordinates and it should produce an output area like below. Feel free to test your program with various inputs (different coordinate values).
 
    ![IDLE Shell Example 3](img/idle3.png)
----
 
 ## Submission
 
